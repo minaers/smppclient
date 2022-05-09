@@ -14,8 +14,8 @@ func main() {
 	// make persistent connection
 	tx := &smpp.Transmitter{
 		Addr:   "localhost:2775",
-		User:   "foobar",
-		Passwd: "secret",
+		User:   "mina",
+		Passwd: "password",
 	}
 	conn := tx.Bind()
 	// check initial connection status
